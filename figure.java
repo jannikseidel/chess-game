@@ -35,6 +35,23 @@ public abstract class figure {
     public void setBeaten(boolean killed){
         this.beaten = true;
     }
+    // get color
+    public String getColor(){
+        return this.color;
+    }
+    // get player
+    public int getPlayer(){
+        return this.player;
+    }
+    // get initially_moved
+    public boolean getInitially_moved(){
+        return this.initially_moved;
+    }
+    // get beaten
+    public boolean getBeaten(){
+        return this.beaten;
+    }
+
     // determine if a figure can move, has to be implemented for each figure type separately
     public abstract  boolean canMove(board board, field start, field stop);
 }

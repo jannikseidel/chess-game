@@ -3,6 +3,13 @@ public class field {
     private String color;
     private figure fig;
 
+    // Constructor
+    public field(int x, int y, figure f,String col){
+        this.setCoord(x,y);
+        this.setFigure(f);
+        this.setColor(col);
+    }
+
     // change figure on field
     public void setFigure (figure f){
         this.fig = f;
