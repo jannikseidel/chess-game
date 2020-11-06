@@ -11,3 +11,4 @@ A first try to write a chess game
     - without check for check
     - without castling move
 5. Queen
+6. Knight
