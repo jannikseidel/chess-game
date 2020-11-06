@@ -1,7 +1,7 @@
-# chess-game
-a first try to write a chess game
+# Chess Game
+A first try to write a chess game
 
-## Implemented logic
+## Implemented Logic
 1. Pawn
   - without en-passant and promotion so far
 2. Rook
@@ -10,3 +10,4 @@ a first try to write a chess game
 4. King
     - without check for check
     - without castling move
+5. Queen
