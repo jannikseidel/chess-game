@@ -6,6 +6,15 @@ public class knight extends figure{
 
     @Override
     public boolean canMove(board board, field start, field stop) {
-        return false;
+
+        if (board.boxes[stop.getCoord().get_y()][stop.getCoord().get_x()].getFig().getColor().equals(this.getColor()))
+        {
+            return false;
+        }
+
+        int x = Math.abs(start.getCoord().get_x() - stop.getCoord().get_x());
+        int y = Math.abs(start.getCoord().get_y()-stop.getCoord().get_y());
+        return x * y == 2;
     }
+}
 }
