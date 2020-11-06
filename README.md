@@ -1,9 +1,12 @@
 # chess-game
-a first try to write a chessgame
+a first try to write a chess game
 
-## Implemeted logic
+## Implemented logic
 1. Pawn
-  - wihtout en-passant and promotion so far
+  - without en-passant and promotion so far
 2. Rook
-  - without castelling
+    - without castling
 3. Bishop
+4. King
+    - without check for check
+    - without castling move
