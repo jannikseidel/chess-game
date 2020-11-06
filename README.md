@@ -12,3 +12,5 @@ A first try to write a chess game
     - without castling move
 5. Queen
 6. Knight
+
+With support from: https://www.geeksforgeeks.org/design-a-chess-game/
