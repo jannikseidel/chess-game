@@ -52,11 +52,11 @@ public class board {
         for (int i = 2; i < 6; i++){
             for (int j = 0; j < 8; j++){
                 if ((i+j)%2 == 0){
-                    boxes[i][j] = new field(j,i,new rook(null,null), "black");
+                    boxes[i][j] = new field(j,i,null, "black");
                 }
                 else
                 {
-                    boxes[i][j] = new field(j,i,new rook(null,null), "white");
+                    boxes[i][j] = new field(j,i,null, "white");
                 }
 
 
