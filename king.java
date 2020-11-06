@@ -12,20 +12,12 @@ public class king extends figure {
                 Math.abs(stop.getCoord().get_y() - start.getCoord().get_y())<= 1)
         {
             // check whether stop field is empty or of different color
-            if (!board.boxes[stop.getCoord().get_y()][stop.getCoord().get_x()].getFig().getColor().
-                    equals(board.boxes[start.getCoord().get_y()][start.getCoord().get_y()].getFig().getColor()))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return !board.boxes[stop.getCoord().get_y()][stop.getCoord().get_x()].getFig().getColor().
+                    equals(board.boxes[start.getCoord().get_y()][start.getCoord().get_y()].getFig().getColor());
         }
         else
         {
             return false;
         }
-        return false;
     }
 }
