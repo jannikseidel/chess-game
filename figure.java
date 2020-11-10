@@ -19,7 +19,7 @@ public abstract class figure {
         this.player = playr;
     }
 
-    // set color of figure
+    // set color of figured(
     public void setColor(String col) {
         this.color = col;
     }

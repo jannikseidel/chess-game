@@ -1,21 +1,10 @@
 # Chess Game
 A first try to write a chess game
 
-## Implemented Logic
-1. Pawn
-  - without en-passant and promotion so far
-2. Rook
-    - without castling
-3. Bishop
-4. King
-    - without check for check
-    - without castling move
-5. Queen
-6. Knight
-
-With support from: https://www.geeksforgeeks.org/design-a-chess-game/
+Reference: https://www.geeksforgeeks.org/design-a-chess-game/
 
 
 ## TO-DO
-1. Implement castling, en-passant, pawn promotion, check-check, check-mate-check
-2. Implement Computer player using a MinMax approach
+1. Implement castling, en-passant, pawn promotion, check-check
+2. Implement Computer player using a MiniMax approach
+3. Implement GUI

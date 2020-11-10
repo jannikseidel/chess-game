@@ -27,5 +27,14 @@ public class Move {
         }
 
     }
+    public field getStart()
+    {
+        return this.start;
+    }
+    
+    public field getStop()
+    {
+        return this.stop;
+    }
 
 }
